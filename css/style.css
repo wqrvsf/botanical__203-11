@@ -107,7 +107,7 @@ a {
 .hero__img {
     border-radius: 500px 500px 0px 0px;
     border: 7px solid #939b92;
-    margin-top: -430px;
+    margin-top: -500px;
     width: 478px;
     height: 660px;
 }
@@ -160,4 +160,50 @@ a {
     justify-content: center;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.about {
+    background-color: #343D33;
+    color: white;
+    margin-top: 50px;
+}
+.about__container {
+    max-width: 1040px;
+    height: 100%;
+}
+
+.about__top-pic {
+    width: 500px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.about__top {
+    display: flex;
+}
+
+.about__bottom-img {
+    width: 1000px;
+    height: 395px;
+    margin-top: 30px;
+}
+
+.about__desc {
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.btn--white {
+    color: white;
+    border: 2px solid white;
+}
+
+.news__img-wrap {
+    width: 520px;
+    height: 333px;
+}
+
+.news__img {
+    width: 236px;
+    height: 151px;
 }
